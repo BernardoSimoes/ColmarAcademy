@@ -1,0 +1,180 @@
+/* MAIN ELEMENTS */
+body {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+header {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  z-index: 20;
+  opacity: 0.9;
+}
+
+footer {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+footer p {
+  text-align: left;
+}
+
+a {
+  color: seashell;
+}
+
+p {
+  text-align: center;
+  opacity: 0.9;
+}
+
+h1,h2,h3,h4,h5 {
+  text-align: center;
+  opacity: 0.9;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+nav {
+  margin-right: 10px;
+  flex: 0 0 auto;
+}
+
+nav li {
+  display: inline-flex;
+  padding-left: 20px;
+}
+
+/* CLASSES */
+.logo {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.teas {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.teas.row2 {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.teas.row2 .tea {
+  margin: 20px 25px auto 25px;
+}
+
+.tea {
+  margin-top: 20px;
+}
+
+.tea img {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.tea p {
+  margin: 10px auto;
+}
+
+.location-container {
+  display: flex;
+  justify-content: center;
+}
+
+.location {
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin: auto 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact a {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.contact {
+  padding-top: 20px;
+  opacity: 0.9;
+  height: 180px;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+/* IDS */
+#Mission{
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url(../images/img-mission-background.jpg);
+  overflow: hidden;
+}
+
+#Mission .title {
+  background-color: black;
+  flex-grow: 1;
+}
+
+#Featured {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-top: 60px;
+}
+
+#Locations {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-image: url(../images/img-locations-background.jpg);
+  overflow: hidden;
+  margin-top: 60px;
+}
+
+#Locations h2 {
+  margin: 0px auto 15px auto;
+}
